@@ -1,0 +1,177 @@
+.cart {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 15px 125px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.checkout-cards {
+  display: flex;
+  flex-direction: column;
+  width: calc(60% - 20px);
+  gap: 30px;
+}
+
+.total-carts {
+  width: calc(40% - 20px);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.check-out-image img {
+  height: 250px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.checkout-card {
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+
+.checkout-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.checkout-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.remove-cart {
+  cursor: pointer;
+  right: 0;
+  position: absolute;
+  margin-right: 5px;
+}
+
+.return-policy,
+.delivery-date {
+  font-size: 12px;
+  font-weight: 700;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.return-policy span,
+.delivery-date span {
+  font-weight: 400;
+}
+
+.cart-order-quantity {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  height: max-content;
+  width: max-content;
+  border-radius: 8px;
+}
+
+.cart-order-quantity button,
+.cart-order-quantity div {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border: none;
+  background-color: white;
+}
+
+.cart-order-quantity button {
+  cursor: pointer;
+}
+
+.cart-pricing {
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+}
+
+.cart-strike-price {
+  font-size: 14px;
+  color: #94969f;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.cart-bold-price {
+  font-weight: 700;
+}
+
+.remove-cart {
+  height: 30px;
+  width: 30px;
+  color: black;
+}
+
+.cart-book-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+  text-transform: capitalize;
+}
+
+.total-mrp,
+.discount-on-mrp,
+.coupon-discount,
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-details {
+  font-size: 12px;
+  font-weight: 700;
+  color: #535766;
+}
+
+.total-mrp,
+.discount-on-mrp,
+.coupon-discount,
+.total-amount {
+  font-size: 14px;
+  font-weight: 400;
+  color: #282c3f;
+}
+
+.total-amount {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #3e4152;
+}
+
+.place-order-btn {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 10px 30px;
+  background-color: #6c5dd3;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.coupon-discount span {
+  color: #6c5dd3;
+  cursor: pointer;
+}

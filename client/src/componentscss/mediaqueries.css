@@ -1,0 +1,382 @@
+/* media queries for max width 1500px */
+@media screen and (max-width: 1500px) {
+  .navbar-right button {
+    display: none;
+  }
+
+  .user-icon,
+  .user-container {
+    display: block;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .navbar-center {
+    width: 65%;
+  }
+
+  .container {
+    padding: 15px 35px;
+    gap: 30px;
+  }
+
+  .book-info,
+  .owner-info {
+    flex-direction: column;
+  }
+
+  .whytochooseus,
+  .featured-books-inner,
+  .news-letter,
+  .copyright-container,
+  .store-numbers,
+  .wishlist-div,
+  .cart,
+  .book-details-top,
+  .book-details-bottom {
+    padding: 15px 35px !important;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+  }
+
+  .featured,
+  .footer,
+  .books-inner,
+  .myorders {
+    padding: 15px 35px !important;
+  }
+
+  .book-info-left,
+  .book-info-right,
+  .owner-info-left,
+  .owner-info-right {
+    width: 100% !important;
+  }
+
+  .owner-info-right {
+    justify-content: space-between !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  td,
+  th {
+    padding: 10px !important;
+  }
+
+  .quick-delivery-box,
+  .secure-payment-box,
+  .best-quality-box,
+  .return-guarantee-box {
+    width: calc(50% - 15px);
+  }
+
+  .happy-customers,
+  .book-collections,
+  .our-stores,
+  .famous-writers {
+    width: calc(50% - 12.5px);
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1eeff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .happy-customers .happy-customers-text p,
+  .book-collections .book-collections-text p,
+  .our-stores .our-stores-text p,
+  .famous-writers .famous-writers-text p {
+    color: black;
+  }
+
+  .store-numbers {
+    gap: 25px;
+  }
+
+  .featured,
+  .footer,
+  .books-inner,
+  .books-header,
+  .featured-books-inner,
+  .book-details-top {
+    flex-direction: column;
+  }
+
+  .featured-left,
+  .featured-right,
+  .footer-left,
+  .footer-center,
+  .footer-right,
+  .books-left,
+  .books-right,
+  .book-details-top-left,
+  .book-details-top-right {
+    width: 100% !important;
+  }
+
+  .books-header-left {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 16px 20px !important;
+    width: 100% !important;
+  }
+
+  .books-header-right,
+  .featured-books-left,
+  .featured-books-right {
+    width: 100% !important;
+  }
+
+  .wishlist-card {
+    width: calc(25% - 20px) !important;
+  }
+
+  .featured-books-left h1,
+  .featured-books-left .featured-description {
+    text-align: center;
+  }
+}
+
+/* media queries for max width 900px */
+@media screen and (max-width: 900px) {
+  .quick-delivery-box,
+  .secure-payment-box,
+  .best-quality-box,
+  .return-guarantee-box,
+  .checkout-cards,
+  .total-carts {
+    width: 100% !important;
+  }
+
+  .myorders {
+    overflow: scroll;
+  }
+
+  .navbar-center {
+    display: none;
+  }
+
+  .mobile-searchbar {
+    display: flex;
+  }
+
+  .featured-left,
+  .cart {
+    flex-direction: column;
+  }
+
+  .featured-box-left {
+    padding-right: 60px;
+  }
+
+  .featured-box-right img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -60%;
+  }
+
+  .featured-box-right {
+    overflow: hidden;
+  }
+
+  .wishlist-container:hover,
+  .cart-container:hover {
+    background-color: initial;
+  }
+
+  .facebook-icon:hover,
+  .youtube-icon:hover,
+  .twitter-icon:hover,
+  .linkedin-icon:hover,
+  .instagram-icon:hover {
+    background-color: initial;
+  }
+
+  .happy-customers-count h1,
+  .book-collections-count h1,
+  .our-stores-count h1,
+  .famous-writers-count h1 {
+    font-size: 20px;
+  }
+
+  .available-books a {
+    width: calc(50% - 7.5px) !important;
+  }
+
+  .wishlist-card {
+    width: calc(50% - 10px) !important;
+  }
+}
+
+/* media queries for max width 640px */
+@media screen and (max-width: 640px) {
+  .pricing-section-right,
+  .pricing-section-left {
+    justify-content: space-between !important;
+  }
+
+  .checkout-card {
+    gap: 20px !important;
+    padding: 5px !important;
+  }
+
+  .featured-left {
+    background-image: initial;
+    background-color: #f2f0fe;
+  }
+
+  .backtoschool {
+    margin-top: 30px;
+  }
+
+  .container {
+    padding: 2px 10px;
+  }
+
+  .whytochooseus {
+    padding: 30px 10px;
+  }
+
+  .store-numbers,
+  .footer,
+  .books-inner,
+  .myorders,
+  .wishlist-div,
+  .book-details-top {
+    padding: 10px !important;
+  }
+
+  .news-letter,
+  .copyright-container,
+  .book-details-bottom {
+    padding: 15px 10px !important;
+  }
+
+  .news-letter-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .mobile-searchbar,
+  .featured-books-inner,
+  .whytochooseus {
+    padding: 10px !important;
+  }
+
+  .mobile-searchbar input {
+    padding: 0 5px !important;
+  }
+
+  .featured,
+  .cart {
+    padding: 0 10px !important;
+  }
+
+  .featured-box-left {
+    padding: 0 10px;
+  }
+
+  .navbar {
+    background: linear-gradient(to right, #7474bf, #348ac7);
+  }
+
+  .wishlist-container,
+  .cart-container {
+    color: white;
+    border-color: white;
+  }
+
+  .logo img,
+  .user-container img {
+    border: 1px solid white;
+  }
+
+  .navbar-center-inner {
+    border-width: 1px;
+  }
+
+  .mobile-searchbar .menubtn {
+    border-right-width: 1px !important;
+  }
+
+  .mobile-searchbar .searchbtn {
+    border-left-width: 1px !important;
+  }
+
+  .mobile-searchbar input:focus {
+    outline: none;
+  }
+
+  .copyright-container,
+  .featured-book-card-left {
+    flex-direction: column;
+  }
+
+  .grid-list-view {
+    border-right: none !important;
+  }
+
+  .book-image {
+    width: calc(50% - 10px);
+  }
+
+  .facebook,
+  .twitter,
+  .whatsapp,
+  .email {
+    width: calc(50% - 10px) !important;
+  }
+
+  .book-box,
+  .featured-book-info-box,
+  .pricing-section-left,
+  .pricing-section-right {
+    width: 100% !important;
+  }
+
+  .news-letter-inner input,
+  .news-letter-inner button {
+    padding: 15px;
+  }
+
+  .quick-delivery-box,
+  .secure-payment-box,
+  .best-quality-box,
+  .return-guarantee-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .product-details-bottom,
+  .single-page-book-name {
+    text-align: center;
+  }
+
+  .pricing-section-left {
+    justify-content: center;
+  }
+
+  .pricing-section {
+    gap: 20px !important;
+  }
+
+  .product-details {
+    text-align: center;
+  }
+
+  .single-page-book-name.main {
+    font-size: 1.5em;
+  }
+}

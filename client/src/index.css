@@ -1,0 +1,8 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --brand-color:#6C5DD3
+}
+
+body{
+  overflow-y: scroll;
+}

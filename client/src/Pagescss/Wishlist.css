@@ -1,0 +1,147 @@
+.wishlist-div {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 15px 125px;
+}
+
+.total-wishlist-items {
+  margin-bottom: 15px;
+}
+
+.total-wishlist-items h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.total-wishlist-items .total-items {
+  font-size: 18px;
+  font-weight: 400;
+  color: #282c3f;
+}
+
+.wishlist-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wishlist-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(20% - 20px);
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.wishlist-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.wishlist-image:hover {
+  opacity: 0.8;
+}
+
+.item-image-div {
+  position: relative;
+}
+
+.item-remove-icon {
+  position: absolute;
+  top: 1.2%;
+  right: 2%;
+}
+
+.item-remove-icon .remove-icon {
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: #6c5dd3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.item-details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-book-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282c3f;
+  text-transform: capitalize;
+}
+
+.item-pricing {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+  align-items: center;
+}
+
+.item-price-bold {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.item-price-strike {
+  font-size: 12px;
+  font-weight: 400;
+  color: #282c3f;
+  text-decoration: line-through;
+}
+
+.item-action {
+  color: #6c5dd3;
+  font-weight: bold;
+  padding: 10px 0;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.item-action:hover {
+  background-color: #f1f2f2;
+}
+
+.empty-wishlist {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10px;
+  gap: 10px;
+}
+
+.empty-wishlist img {
+  max-width: 100%;
+  height: auto;
+}
+
+.empty-wishlist h1 {
+  color: #6c5dd4;
+}
+
+.item-image-actions {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}

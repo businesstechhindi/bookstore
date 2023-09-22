@@ -1,0 +1,51 @@
+.store-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 125px;
+  background-color: white;
+  z-index: 5;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.happy-customers,
+.book-collections,
+.our-stores,
+.famous-writers {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.happy-customers-icon img {
+  height: 80px;
+  width: 100px;
+}
+
+.book-collections-icon img {
+  height: 80px;
+  width: 100px;
+}
+
+.our-stores-icon img {
+  height: 90px;
+  width: 90px;
+}
+
+.famous-writers-icon img {
+  height: 90px;
+  width: 90px;
+}
+
+.happy-customers .happy-customers-text p,
+.book-collections .book-collections-text p,
+.our-stores .our-stores-text p,
+.famous-writers .famous-writers-text p {
+  color: #aaaaaa;
+  font-weight: 500;
+}

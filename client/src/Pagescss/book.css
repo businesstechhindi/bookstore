@@ -1,0 +1,283 @@
+.book-details-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 125px;
+  gap: 35px;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.book-details-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 125px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.book-details-top-left img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.book-details-top-left {
+  width: calc(25% - 35px);
+}
+
+.book-details-top-right {
+  width: calc(75% - 35px);
+}
+
+.book-details-top-right-center {
+  margin-top: 15px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  font-weight: 500;
+}
+
+.book-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.book-info-left {
+  gap: 15px;
+  width: calc(50% - 7.5px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-info-right {
+  gap: 10px;
+  width: calc(50% - 7.5px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.facebook,
+.twitter,
+.whatsapp,
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(25% - 10px);
+  padding-block:5px ;
+  border-radius: 10px;
+  gap: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.facebook h5,
+.twitter h5,
+.whatsapp h5,
+.email h5 {
+  font-weight: 500;
+}
+
+.owner-info {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  gap: 50px;
+}
+
+.owner-info-left {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(50% - 50px);
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.owner-info-left h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #AAAAAA;
+}
+
+.owner-info-left h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.owner-info-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(50% - 50px);
+  justify-content: right;
+  gap: 35px;
+  width: 50%;
+}
+
+.shipping-fee {
+  padding: 7px 13px;
+  border-radius: 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebe7fe;
+  color: #6c5dd3;
+}
+
+.stock-availability {
+  padding: 7px 13px;
+  border-radius: 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddf5e5;
+  color: #3eb760;
+}
+
+.pricing-section {
+  border-top: 3px dashed #AAAAAA;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.pricing-section-left {
+  display: flex;
+  align-items: center;
+  width: calc(40% - 50px);
+}
+
+.pricing-section-left h4 {
+  font-size: 35px;
+}
+
+.pricing-section-left h6 {
+  font-size: 20px;
+  color: #AAAAAA;
+  font-weight: 500;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+.pricing-section-right {
+  gap: 35px;
+  display: flex;
+  align-items: center;
+  width: calc(60% - 50px);
+  justify-content: right;
+}
+
+.order-quantity {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.order-quantity button {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+}
+
+.order-quantity div {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.product-details-bottom .product {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.product-details-bottom .product:first-child {
+  border-top: 1px solid #d9d9d9;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-details-bottom .product:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.product-details-bottom {
+  margin-top: 25px;
+}
+
+.product-details-bottom,
+.single-page-book-name {
+  text-transform: capitalize;
+}
+
+.skeleton-input {
+  width: 500px !important;
+  height: 30px;
+}
+
+.fastar {
+  fill: #ff764c;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.fastar-white {
+  fill: #e1e1e1;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.msg-icon {
+  fill: #6c5dd4;
+  height: 20px;
+  width: 20px;
+}
+
+.slack-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,43 @@
+.mobile-searchbar {
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: center;
+  display: none;
+  padding: 15px 35px;
+}
+
+.mobile-searchbar input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  padding: 0px 15px;
+  caret-color: var(--brand-color);
+}
+
+.mobile-searchbar input::placeholder {
+  color: #aaaaaa;
+}
+
+.mobile-searchbar .searchbtn {
+  width: 10%;
+  min-width: 70px;
+  height: 50px;
+  border: none;
+  border-left: 1.5px solid #d9d9d9;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.mobile-searchbar .menubtn {
+  width: 10%;
+  min-width: 70px;
+  height: 50px;
+  border: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 1.5px solid #d9d9d9;
+  cursor: pointer;
+  background-color: white;
+}

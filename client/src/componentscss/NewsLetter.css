@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Caveat:wght@700&display=swap");
+.news-letter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 125px;
+  background-color: white;
+  height: 300px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.news-letter-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets//background.svg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  border-radius: 15px;
+  font-family: "Cairo", sans-serif;
+  font-size: 40;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.news-letter-inner input {
+  width: 70%;
+  padding: 15px 25px;
+  background-color: #7c6de4;
+  border: none;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.news-letter-inner input::placeholder {
+  color: white;
+  font-weight: 500;
+}
+
+.news-letter-inner input:focus {
+  color: white;
+  outline: none;
+}
+
+.news-letter-inner button {
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px 25px;
+}
+
+.news-letter-inner button:hover {
+  background-color: #F1EEFF;
+}
+
+.inputes{
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-letter-box {
+  max-width: 580px;
+}
+
+.news-letter-box h1{
+  font-size: 2rem;
+  line-height: 50px;
+}
