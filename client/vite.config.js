@@ -6,7 +6,7 @@
 //   plugins: [react()],
 // })
 
-// const baseurl = "https://famous-pear-underclothes.cyclic.cloud/"
+
 const baseurl = "http://localhost:3000";
 
 import { defineConfig } from "vite";
